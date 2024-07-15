@@ -47,7 +47,7 @@ generateBtn.addEventListener('click', () => {
 
 copyBtn.addEventListener('click', () => {
   generatedPwd.select();
-  generatedPwd.setSelectionRange(0, 99099); // For mobile device
+  generatedPwd.setSelectionRange(0, 99999); // For mobile device
 
   // Copy the text to the clipboard
   navigator.clipboard.writeText(generatedPwd.value);
